@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins:wght@100&family=Raleway:ital,wght@1,100&display=swap');
+
+:root {
+    --color-brand-blue: #2874f0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    background: var(--color-brand-blue);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+nav ul li a:hover {
+    color: rgb(81, 230, 31);
+    /* font-weight: bold; */
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    height: 18vh;
+}
+
+.search input {
+    font-style: italic;
+}
+
+input {
+    /* display: inline-block; */
+    margin: 51px 19px;
+    width: 470px;
+    border-radius: 5px;
+}
+
+.srcimg {
+    display: flex;
+    /* margin-top: 3rem;
+    margin-right: 25rem; */
+    height: 2rem;
+    position: relative;
+    top: 3rem;
+    right: 0rem;
+
+}
+
+.srcimg button {
+    width: 3rem;
+    height: 2rem;
+
+
+}
+
+.container {
+    min-height: calc(98vh - 17vh - 9vh);
+
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+
+}
+.slider img{
+    height: 90vh;
+}
+
+.blockcards {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 7rem;
+}
+
+.card1item1 {
+    margin: 13px;
+    padding: 0px;
+}
+.card1item2{
+    margin: 45px;
+    padding: 0px;
+}
+.card1item3{
+    margin: 45px;
+    padding: 0px;
+    position: relative;
+    top: -1rem;
+    left: 2rem;
+}
+
+
+
+.ac{
+    text-align: center;
+    margin: 1em auto;
+
+}
+.ac1{
+    text-align: center;
+    margin: 1em auto;
+
+}
+.ac2{
+    text-align: center;
+    margin: 1em auto;
+
+}
+.subheadsac{
+    margin: 3em auto;
+
+}
+
+.p1 {
+    text-align: center;
+    margin: 1em auto;
+}
+.card2item2{
+    margin: 70px;
+    padding: 0px;
+
+}
+.card2item1{
+    margin: 25px ;
+    
+}
+.card2item3{
+    margin: 30px;
+    
+}
+.card2item4{
+    margin: 59px;
+    
+}
+.subheadscar{
+    position: relative;
+    bottom: -1em;
+}
+.card3item1{
+    margin: 2em 4em;
+}
+.card3item2{
+    margin: 3em 4em;
+}
+.card3item3{
+    margin: 4em 5em;
+}
+.card3item4{
+    margin: 4em 3em;
+}
+    
+
+footer {
+    height: 8vh;
+    background: var(--color-brand-blue);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}

@@ -1,0 +1,23 @@
+.flexcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 17vh;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    animation: logoani 1s linear infinite ;
+}
+.logo img{
+    width: 9vw;
+     height:20vh;
+}
